@@ -1,20 +1,20 @@
 export default [
    {
-      title: 'Terminal Website',
+      title: 'A* Algorithm Visualizer',
       imgUrl: '/assets/terminal-website.jpg',
-      stack: ['HTML', 'CSS', 'JavaScript'],
-      link: 'https://fkcodes.com',
+      stack: ['Java', 'Java Swing'],
+      link: 'https://github.com/SyntaxWarrior30/A-Star-Algorithm-Visualizer',
    },
    {
-      title: 'Developer Portfolio',
+      title: 'Sudoku Solver',
       imgUrl: '/assets/dev-portfolio.jpg',
-      stack: ['React', 'Tailwind', 'Vite'],
-      link: 'https://thehackershideout.com',
+      stack: ['Java', 'Java Swing'],
+      link: 'https://github.com/SyntaxWarrior30/SudokuSolver',
    },
    {
-      title: 'AI Nerf Gun',
+      title: 'Documentation Generator',
       imgUrl: '/assets/ai-nerf-gun.jpg',
-      stack: ['Python', 'C++', 'Robotics'],
-      link: 'https://youtu.be/A8eegxL82PI',
+      stack: ['React + Vite', 'Tailwind CSS', 'ChatGPT'],
+      link: 'https://syntaxwarrior30.github.io/Documentation-Wizard/',
    },
 ]
