@@ -4,10 +4,11 @@ import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
 import Timeline from './components/Timeline';
-import Particles from './components/ParticlesComponent'
+import ParticlesLight from './components/ParticlesComponentLight';
+import ParticlesDark from './components/ParticlesComponentDark';
 
 function App() {
-	const [theme, setTheme] = useState(null);
+	const [theme, setTheme] = useState('dark');
 
 	useEffect(() => {
 		if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -72,15 +73,29 @@ function App() {
 		>
 			{theme === 'dark' ? sun : moon}
 		</button>
-		<div className="bg-white dark:bg-stone-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter">
+		{theme === 'light' ? 
+			<div className="text-stone-900 min-h-screen font-inter">
+				<div className="max-w-5xl w-11/12 mx-auto">
+					<Intro />
+					<Portfolio />
+					<Timeline />
+					<Contact />
+					<Footer />
+					<ParticlesLight />
+				</div>
+			</div>
+		: 
+		<div className="dark:text-stone-300 min-h-screen font-inter">
 			<div className="max-w-5xl w-11/12 mx-auto">
 				<Intro />
 				<Portfolio />
 				<Timeline />
 				<Contact />
 				<Footer />
+				<ParticlesDark />
 			</div>
 		</div>
+		}
 	 </>
   )
 }
