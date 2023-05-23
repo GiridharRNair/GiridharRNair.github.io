@@ -1,26 +1,30 @@
 export default [
    {
+      id: 1,
       title: 'A* Algorithm Visualizer',
-      imgUrl: '',
+      imgUrl: './AStarVisualizer.gif',
       stack: ['Java', 'Java Swing'],
       link: 'https://github.com/SyntaxWarrior30/A-Star-Algorithm-Visualizer',
    },
    {
+      id: 2,
       title: 'Sudoku Solver',
-      imgUrl: '',
+      imgUrl: './SudokuSolverDemo.gif',
       stack: ['Java', 'Java Swing'],
       link: 'https://github.com/SyntaxWarrior30/SudokuSolver',
    },
    {
+      id: 3,
       title: 'Documentation Generator',
-      imgUrl: '',
-      stack: ['React + Vite', 'Tailwind CSS', 'ChatGPT'],
-      link: 'https://syntaxwarrior30.github.io/Documentation-Wizard/',
+      imgUrl: './DocWizScreenShot.png',
+      stack: ['React + Vite', 'Tailwind CSS', 'ChatGPT API'],
+      link: 'https://github.com/SyntaxWarrior30/Documentation-Wizard',
    },
    {
+      id: 4,
       title: 'Portfolio Website',
-      imgUrl: '',
+      imgUrl: './PersonalPortfolioImg.jpg',
       stack: ['React + Vite', 'Tailwind CSS'],
-      link: 'https://syntaxwarrior30.github.io/Documentation-Wizard/',
+      link: 'https://github.com/SyntaxWarrior30/Personal-Website',
    },
 ]

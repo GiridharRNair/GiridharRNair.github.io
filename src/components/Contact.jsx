@@ -30,8 +30,8 @@ function Contact() {
                   className="p-2 mb-3 bg-transparent border-2 rounded-md focus:outline-none border-stone-900 dark:border-white"
                />
                <button
-                  type="button"
-                  className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white dark:bg-zinc-400 bg-stone-600"
+                  type="submit"
+                  className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-stone-400 hover:bg-stone-600"
                >
                   Work With Me
                </button>

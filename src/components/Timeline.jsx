@@ -5,14 +5,15 @@ import Title from './Title';
 
 function Timeline() {
    return (
-      <div className="flex flex-col md:flex-row justify-center my-16">
+      <div className="flex flex-col md:flex-row justify-center my-12">
          <div className="w-full md:w-7/12">
             <Title>Timeline</Title>
             {timeline.map(item => (
                <TimelineItem 
+                  key={item.id}
                   year={item.year}
                   title={item.title}
-                  location={item.location}
+                  host={item.host}
                   duration={item.duration}
                   details={item.details}
                />

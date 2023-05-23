@@ -1,7 +1,6 @@
 import React from 'react';
 import portfolio from '../data/portfolio';
 import PortfolioItem from './PortfolioItem';
-import Title from './Title';
 
 function Portfolio() {
    return (
@@ -10,6 +9,7 @@ function Portfolio() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                {portfolio.map(project => (
                   <PortfolioItem 
+                     key={project.id}
                      imgUrl={project.imgUrl}
                      title={project.title}
                      stack={project.stack}
