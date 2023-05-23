@@ -5,7 +5,7 @@ import { useCallback, useMemo } from "react";
 
 // tsParticles Repository: https://github.com/matteobruni/tsparticles
 // tsParticles Website: https://particles.js.org/
-const ParticlesComponentLight = (props) => {
+const ParticlesComponent = (props) => {
   // using useMemo is not mandatory, but it's recommended since this value can be memoized if static
   const options = useMemo(() => {
     // using an empty options object will load the default options, which are static particles with no background and 3px radius, opacity 100%, white color
@@ -14,19 +14,19 @@ const ParticlesComponentLight = (props) => {
         "autoPlay": true,
         "background": {
           "color": {
-            "value": "#000"
+            "value": "#1c1917"
           },
           "image": "",
           "position": "",
           "repeat": "",
           "size": "",
-          "opacity": 0
+          "opacity": 1
         },
         "backgroundMask": {
           "composite": "destination-out",
           "cover": {
             "color": {
-              "value": "#fff"
+              "value": "#1c1917"
             },
             "opacity": 1
           },
@@ -374,7 +374,7 @@ const ParticlesComponentLight = (props) => {
               "height": 1080
             },
             "limit": 0,
-            "value": 100
+            "value": 75
           },
           "opacity": {
             "random": {
@@ -630,4 +630,4 @@ const ParticlesComponentLight = (props) => {
   return <Particles id={props.id} init={particlesInit} options={options} />;
 };
 
-export default ParticlesComponentLight;
+export default ParticlesComponent;

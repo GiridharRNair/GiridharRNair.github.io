@@ -4,8 +4,8 @@ import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Portfolio from './components/Portfolio';
 import Timeline from './components/Timeline';
-import ParticlesLight from './components/ParticlesComponentLight';
-import ParticlesDark from './components/ParticlesComponentDark';
+import ParticlesLight from './components/background/ParticlesComponentLight';
+import ParticlesDark from './components/background/ParticlesComponentDark';
 
 function App() {
 	const [theme, setTheme] = useState('dark');
