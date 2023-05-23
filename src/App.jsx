@@ -116,7 +116,7 @@ function App() {
 			strokeLinejoin="round"
 			style={{ ...svgContainerProps, cursor: "pointer" }}
 			onClick={handleThemeSwitch}
-			className="fixed z-10 right-5 top-4 bg-stone-300 hover:bg-stone-600 hover:dark:bg-stone-300 dark:bg-white text-lg p-1 rounded-md"
+			className="fixed z-10 right-5 top-4 bg-stone-300 hover:bg-stone-400 hover:dark:bg-stone-300 dark:bg-white text-lg p-1 rounded-md"
 		>
 			<mask id="mask">
 			<rect x="0" y="0" width="100%" height="100%" fill="white" />

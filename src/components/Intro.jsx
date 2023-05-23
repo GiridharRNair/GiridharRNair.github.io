@@ -1,6 +1,14 @@
 import React from 'react';
+import { useState } from 'react';
+
 
 function Intro() {
+   const [isHidden, setIsHidden] = useState(true);
+
+   const toggleHidden = () => {
+     setIsHidden(!isHidden);
+   };
+
    return (
       <div className="flex items-center justify-center md:flex-row text-center md:text-left md:space-y-0 space-y-4 flex-col pt-20 pb-12 md:space-x-4">
          <img src="./MyHeadshot.jpg" alt="Picture of Giridhar Nair" width={200} className='rounded-lg'/>
@@ -12,12 +20,25 @@ function Intro() {
                to build innovative projects, I am constantly seeking new challenges 
                and opportunities to expand my skills.
             </p>
-            <p className='md:text-left text-center'>
-               Email: Giridhar.r.nair@gmail.com
-            </p>
-            <p className='md:text-left text-center'>
-               Phone: (469)585-7564
-            </p>
+            <div>
+               <button
+                  className="text-blue-500 hover:underline mb-2"
+                  onClick={toggleHidden}
+               >
+                  {isHidden ? 'Show' : 'Hide'} Contact Information
+               </button>
+
+               {!isHidden && (
+               <div>
+                  <p className="md:text-left text-center">
+                     Email: Giridhar.r.nair@gmail.com
+                  </p>
+                  <p className="md:text-left text-center">
+                     Phone: (469)585-7564
+                  </p>
+               </div>
+               )}
+            </div>
          </div>
       </div>
    )
