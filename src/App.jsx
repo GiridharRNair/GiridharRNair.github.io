@@ -2,10 +2,12 @@ import React, { useEffect, useState } from 'react';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Intro from './components/Intro';
-import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
 import Timeline from './components/Timeline';
 import ParticlesLight from './components/background/ParticlesComponentLight';
 import ParticlesDark from './components/background/ParticlesComponentDark';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useSpring, animated } from "react-spring";
 
 function App() {
@@ -148,18 +150,23 @@ function App() {
 				<line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
 			</animated.g>
 		</animated.svg>
-		<div className="text-stone-900 dark:text-white min-h-screen font-inter">
-			<div className="max-w-5xl w-11/12 mx-auto">
-				<Intro />
-				<Portfolio />
-				<Timeline />
-				<Contact />
-				<Footer />
-				{theme === 'light' ? 
-					<ParticlesLight />
-				: <ParticlesDark />}
+		<Router>
+			<Navbar />
+			<div className="text-stone-900 dark:text-white min-h-screen font-inter">
+				<div className="max-w-5xl w-11/12 mx-auto">
+						<Routes>
+							<Route exact path="/GiridharPortfolio" element={<Intro />} />
+							<Route path="/GiridharPortfolio/Projects" element={<Projects />} />
+							<Route path="/GiridharPortfolio/Contact" element={<Contact />} />
+							<Route path="/GiridharPortfolio/Timeline" element={<Timeline />} />
+						</Routes>
+					<Footer />
+					{theme === 'light' ? 
+						<ParticlesLight />
+					: <ParticlesDark />}
+				</div>
 			</div>
-		</div>
+		</Router>
 	 </>
   )
 }

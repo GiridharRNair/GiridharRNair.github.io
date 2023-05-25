@@ -1,8 +1,8 @@
 import React from 'react';
 import portfolio from '../data/portfolio';
-import PortfolioItem from './PortfolioItem';
+import PortfolioItem from './ProjectItem';
 
-function Portfolio() {
+function Projects() {
    return (
       <>
          <div className="flex flex-col md:flex-row items-center justify-center">
@@ -22,4 +22,4 @@ function Portfolio() {
    )
 }
 
-export default Portfolio;
+export default Projects;
