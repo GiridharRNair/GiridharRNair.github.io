@@ -3,7 +3,7 @@ import Title from './Title';
 
 function Contact() {
    return (
-      <div className="flex flex-col mb-10 mx-auto">
+      <div className="flex flex-col mx-auto py-8">
          <div className="flex justify-center items-center">
             <form
                action="https://getform.io/f/ebece549-0ac4-4ba2-875f-8173e69d5ea7"
@@ -31,7 +31,7 @@ function Contact() {
                />
                <button
                   type="submit"
-                  className="text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-stone-400 hover:bg-stone-600"
+                  className="text-center inline-block px-8 py-2 w-max text-base font-medium rounded-md text-white bg-stone-400 hover:bg-stone-600"
                >
                   Work With Me
                </button>

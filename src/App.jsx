@@ -160,11 +160,11 @@ function App() {
 							<Route path="/GiridharPortfolio/Contact" element={<Contact />} />
 							<Route path="/GiridharPortfolio/Timeline" element={<Timeline />} />
 						</Routes>
-					<Footer />
 					{theme === 'light' ? 
 						<ParticlesLight />
 					: <ParticlesDark />}
 				</div>
+				<Footer />
 			</div>
 		</Router>
 	 </>

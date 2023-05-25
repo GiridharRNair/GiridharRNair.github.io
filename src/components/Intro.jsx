@@ -3,7 +3,7 @@ import React from 'react';
 function Intro() {
 
    return (
-      <div className="flex items-center justify-center md:flex-row text-center md:text-left md:space-y-0 space-y-4 flex-col md:space-x-4">
+      <div className="py-8 flex items-center justify-center md:flex-row text-center md:text-left md:space-y-0 space-y-4 flex-col md:space-x-4">
          <img src="./MyHeadshot.jpg" alt="Picture of Giridhar Nair" width={200} className='rounded-lg'/>
          <div className='dark:text-stone-400 text-stone-500 md:w-5/12 mx-5 space-y-2'>
             <h1 className="text-stone-900 text-4xl dark:text-white mb-2 font-bold">Giridhar Nair</h1>
