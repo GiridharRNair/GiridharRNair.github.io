@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import portfolio from '../data/portfolio';
+import portfolio from '../data/projects';
 import Title from './Title';
 import PortfolioItem from './ProjectItem';
+import Footer from './Footer';
 
 function Projects() {
    const [isActive, setIsActive] = useState(false);
@@ -28,6 +29,7 @@ function Projects() {
                ))}
             </div>
          </div>
+         <Footer />
       </div>
    )
 }

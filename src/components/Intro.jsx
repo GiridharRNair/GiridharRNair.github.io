@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Footer from './Footer';
 
 function Intro() {
    const [isActive, setIsActive] = useState(false);
@@ -21,6 +22,7 @@ function Intro() {
                </p>
             </div>
          </div>
+         <Footer />
       </div>
    )
 }

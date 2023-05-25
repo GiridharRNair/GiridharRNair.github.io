@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import Contact from './components/Contact';
-import Footer from './components/Footer';
 import Intro from './components/Intro';
 import Projects from './components/Projects';
 import Timeline from './components/Timeline';
@@ -120,17 +119,16 @@ function App() {
 			<Navbar />
 			<div className="text-stone-900 dark:text-white min-h-screen font-inter">
 				<div className="max-w-5xl w-11/12 mx-auto">
-						<Routes>
-							<Route exact path="/" element={<Intro />} />
-							<Route path="/Projects" element={<Projects />} />
-							<Route path="/Contact" element={<Contact />} />
-							<Route path="/Timeline" element={<Timeline />} />
-						</Routes>
+					<Routes>
+						<Route exact path="/" element={<Intro />} />
+						<Route path="/Projects" element={<Projects />} />
+						<Route path="/Contact" element={<Contact />} />
+						<Route path="/Timeline" element={<Timeline />} />
+					</Routes>
 					{theme === 'light' ? 
 						<ParticlesLight />
 					: <ParticlesDark />}
 				</div>
-				<Footer />
 			</div>
 		</Router>
 	 </div>

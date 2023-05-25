@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import timeline from '../data/timeline';
 import TimelineItem from './TimelineItem';
 import Title from './Title';
+import Footer from './Footer';
 
 function Timeline() {
    const [isActive, setIsActive] = useState(false);
@@ -27,6 +28,7 @@ function Timeline() {
                ))}
             </div>
          </div>
+         <Footer />
       </div>
    )
 }

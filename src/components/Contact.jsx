@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Title from './Title';
+import Footer from './Footer';
 
 function Contact() {
    const [isActive, setIsActive] = useState(false);
@@ -23,19 +24,19 @@ function Contact() {
                      type="text"
                      name="name"
                      placeholder="Name"
-                     className="p-2 bg-transparent border-2 rounded-md focus:outline-none border-stone-900 dark:border-white"
+                     className="dark:bg-stone-900 bg-white p-2 bg-transparent border-2 rounded-md focus:outline-none border-stone-900 dark:border-white"
                   />
                   <input
                      type="text"
                      name="email"
                      placeholder="Email"
-                     className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none border-stone-900 dark:border-white"
+                     className="dark:bg-stone-900 bg-white my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none border-stone-900 dark:border-white"
                   />
                   <textarea
                      name="message"
                      placeholder="Message"
                      rows="10"
-                     className="p-2 mb-3 bg-transparent border-2 rounded-md focus:outline-none border-stone-900 dark:border-white"
+                     className="dark:bg-stone-900 bg-white p-2 mb-3 bg-transparent border-2 rounded-md focus:outline-none border-stone-900 dark:border-white"
                   />
                   <button
                      type="submit"
@@ -46,6 +47,7 @@ function Contact() {
                </form>
             </div>
          </div>
+         <Footer />
       </div>
    )
 }

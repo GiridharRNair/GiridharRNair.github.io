@@ -25,6 +25,6 @@ export default [
       title: 'Portfolio Website',
       imgUrl: './PersonalPortfolioImg.jpg',
       stack: ['React + Vite', 'Tailwind CSS'],
-      link: 'https://github.com/SyntaxWarrior30/Personal-Website',
+      link: 'https://github.com/SyntaxWarrior30/SyntaxWarrior30.github.io',
    },
 ]
