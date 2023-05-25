@@ -374,7 +374,7 @@ const ParticlesComponent = (props) => {
               "height": 1080
             },
             "limit": 0,
-            "value": 75
+            "value": 45
           },
           "opacity": {
             "random": {

@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="flex flex-col text-center sm:flex-row sm:text-left sm:justify-between shadow py-4 px-6 sm:items-baseline w-full">
         <div className="mb-2 sm:mb-0 space-x-5 ">                
-            <NavLink to="/GiridharPortfolio" className="text-base no-underline text-stone-400 hover:text-stone-600">
+            <NavLink to="/GiridharPortfolio/" className="text-base no-underline text-stone-400 hover:text-stone-600">
                 About
             </NavLink>
             <NavLink to="/GiridharPortfolio/Projects" className="text-base no-underline text-stone-400 hover:text-stone-600">
