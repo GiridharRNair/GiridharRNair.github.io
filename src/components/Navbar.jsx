@@ -3,8 +3,8 @@ import { NavLink } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="flex flex-col text-center sm:flex-row sm:text-left sm:justify-between shadow py-4 px-6 sm:items-baseline w-full">
-        <div className="mb-2 sm:mb-0 space-x-5 ">                
+    <nav className="flex flex-col sm:flex-row sm:text-left sm:justify-between shadow sm:mt-3 mt-2 px-6 sm:items-baseline w-full">
+        <div className="mb-2 sm:mb-3 space-x-5 ">                
             <NavLink to="/GiridharPortfolio/" className="text-base no-underline text-stone-400 hover:text-stone-600">
                 About
             </NavLink>

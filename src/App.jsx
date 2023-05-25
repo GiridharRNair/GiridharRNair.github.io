@@ -108,8 +108,8 @@ function App() {
 	<>
 		<animated.svg
 			xmlns="http://www.w3.org/2000/svg"
-			width="30"
-			height="30"
+			width="24"
+			height="24"
 			viewBox="0 0 24 24"
 			fill="none"
 			stroke="currentColor"
@@ -118,7 +118,7 @@ function App() {
 			strokeLinejoin="round"
 			style={{ ...svgContainerProps, cursor: "pointer" }}
 			onClick={handleThemeSwitch}
-			className="fixed z-10 right-4 top-4 bg-stone-300 hover:bg-stone-400 hover:dark:bg-stone-300 dark:bg-white text-lg p-1 rounded-md"
+			className="fixed z-10 sm:right-3 sm:top-3 right-2 top-2 bg-stone-300 hover:bg-stone-400 hover:dark:bg-stone-300 dark:bg-white text-lg p-1 rounded-md"
 		>
 			<mask id="mask">
 			<rect x="0" y="0" width="100%" height="100%" fill="white" />
