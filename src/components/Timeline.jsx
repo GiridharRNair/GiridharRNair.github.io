@@ -13,7 +13,7 @@ function Timeline() {
 
    return (
       <div className={`fade-in ${isActive ? 'active' : ''}`}>
-         <div className="flex flex-col md:flex-row justify-center py-8">
+         <div className="flex flex-col md:flex-row justify-center pt-8 pb-4">
             <div className="w-full md:w-7/12">
                <Title>Timeline</Title>
                {timeline.map(item => (
