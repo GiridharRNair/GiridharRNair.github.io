@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import portfolio from '../data/portfolio';
+import Title from './Title';
 import PortfolioItem from './ProjectItem';
 
 function Projects() {
@@ -11,7 +12,10 @@ function Projects() {
 
    return (
       <div className={`fade-in ${isActive ? 'active' : ''}`}>
-         <div className="flex flex-col md:flex-row items-center justify-center my-8">
+         <div className="pt-8 flex items-center w-full md:w-7/12 flex-col mx-auto">
+            <Title>Projects</Title>
+         </div>
+         <div className="flex flex-col md:flex-row items-center justify-center mb-8">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                {portfolio.map(project => (
                   <PortfolioItem 
