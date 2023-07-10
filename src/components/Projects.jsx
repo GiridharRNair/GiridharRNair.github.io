@@ -16,8 +16,8 @@ function Projects() {
          <div className="pt-8 flex items-center w-full md:w-7/12 flex-col mx-auto">
             <Title>Projects</Title>
          </div>
-         <div className="flex flex-col md:flex-row items-center justify-center mb-8">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+         <div className="items-center justify-center mb-8">
+            <div className="space-y-5">
                {portfolio.map(project => (
                   <PortfolioItem 
                      key={project.id}
@@ -25,6 +25,7 @@ function Projects() {
                      title={project.title}
                      stack={project.stack}
                      link={project.link}
+                     details={project.details}
                   />
                ))}
             </div>

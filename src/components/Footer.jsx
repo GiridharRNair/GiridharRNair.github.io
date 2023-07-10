@@ -7,7 +7,7 @@ function Footer() {
 					<div>
 						<div className="flex flex-wrap justify-center gap-2">
 							<a 
-								href="https://www.linkedin.com/in/gary-nair/" 
+								href="https://www.linkedin.com/in/Giridhar-Nair/" 
 								target="_blank"
 								className="bg-stone-400 hover:bg-stone-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg
@@ -34,7 +34,7 @@ function Footer() {
 								</svg>
 							</a>
 							<a 
-								href="https://github.com/SyntaxWarrior30"
+								href="https://github.com/GiridharRNair"
 								target="_blank"
 								className="bg-stone-400 hover:bg-stone-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg

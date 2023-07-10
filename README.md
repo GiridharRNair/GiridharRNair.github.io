@@ -1,17 +1,8 @@
 # Personal-Website
 
+Active link: GiridharRNair.github.io
+
 Minimal personal website to display my current developer skills.
-
-## Features
-
-- Minimalistic and modern design
-- Responsive layout
-- Showcase your projects with project cards
-- Display your skills and experience
-- Easy customization
-- Vite for fast development and hot module replacement
-- React for building interactive UI components
-- Tailwind CSS for easy and flexible styling
 
 ## Run Locally
 1. Clone this repository using the following command:
@@ -21,7 +12,7 @@ Minimal personal website to display my current developer skills.
 
 2. Navigate into the project directory:
     ```
-    cd Personal-Website
+    cd GiridharRNair.github.io
     ```
 
 3. Install the dependencies:
