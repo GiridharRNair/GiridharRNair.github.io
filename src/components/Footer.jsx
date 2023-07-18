@@ -1,5 +1,5 @@
 import React from 'react';
-import { name } from '../../data/Intro';
+import { name, socials } from '../../data/Intro';
 
 
 function Footer() {
@@ -9,7 +9,7 @@ function Footer() {
 					<div>
 						<div className="flex flex-wrap justify-center gap-2">
 							<a 
-								href="https://www.linkedin.com/in/Giridhar-Nair/" 
+								href={socials[0]['LinkedIn']} 
 								target="_blank"
 								className="bg-stone-400 hover:bg-stone-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg
@@ -24,7 +24,7 @@ function Footer() {
 								</svg>
 							</a>
 							<a
-								href="https://www.youtube.com/channel/UC94rbrZdoCYU6uQLiHqQFZg"
+								href={socials[1]['Youtube']}
 								target="_blank"
 								className="bg-stone-400 hover:bg-stone-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg
@@ -36,7 +36,7 @@ function Footer() {
 								</svg>
 							</a>
 							<a 
-								href="https://github.com/GiridharRNair"
+								href={socials[2]['GitHub']}
 								target="_blank"
 								className="bg-stone-400 hover:bg-stone-600 p-2 font-semibold text-white inline-flex items-center space-x-2 rounded-full">
 								<svg

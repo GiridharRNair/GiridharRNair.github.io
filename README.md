@@ -7,7 +7,7 @@ Minimal personal website to display my current developer skills.
 ## Run Locally
 1. Clone this repository using the following command:
     ```
-    git clone https://github.com/SyntaxWarrior30/Personal-Website.git
+    git clone https://github.com/GiridharRNair/GiridharRNair.github.io.git
     ```
 
 2. Navigate into the project directory:

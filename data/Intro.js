@@ -1,94 +1,23 @@
 export const name = 'Giridhar Nair'
 
-export const currentUniversity = "The University Of Texas at Dallas '27"
+export const currentUniversity = "University Of Texas at Dallas '27"
 
 export const description = "Computer science student with a keen interest in artificial intelligence, data science, and full-stack development. I am continuously seeking new challenges and opportunities to enhance my skills, particularly through internships."
 
-export const languages = [
-    {
-        id: 1,
-        name: 'Python'
-    },
-    {
-        id: 2,
-        name: 'Java'
-    },
-    {
-        id: 3,
-        name: 'JavaScript'
-    },
-    {
-        id: 4,
-        name: 'HTML/CSS'
-    },
-    {
-        id: 5,
-        name: 'SQL'
-    }
-]
+export const languages = ['Python', 'Java', 'JavaScript', 'HTML/CSS', 'SQL']
 
-export const frameworks_and_libraries = [
-    {
-        id: 1,
-        name: 'React.js'
-    },
-    {
-        id: 2,
-        name: 'Tailwind CSS'
-    },
-    {
-        id: 3,
-        name: 'Node.js'
-    },
-    {
-        id: 4,
-        name: 'Java Swing'
-    },
-    {
-        id: 5,
-        name: 'NumPy'
-    },
-    {
-        id: 6,
-        name: 'MatPlotLib'
-    },
-    {
-        id: 7,
-        name: 'TensorFlow'
-    },
-    {
-        id: 8,
-        name: 'PyTorch'
-    },
-]
+export const frameworks_and_libraries = ['React.js', 'Tailwind CSS', 'Node.js', 'Java Swing', 'NumPy', 'MatPlotLib', 'TensorFlow', 'PyTorch']
 
-export const devTools = [
+export const devTools = ['Git', 'Heroku', 'Vercel', 'IntelliJ', 'VS Code', 'Eclipse', 'PyCharm']
+
+export const socials = [
     {
-        id: 1,
-        name: 'Git'
+        'LinkedIn': 'https://www.linkedin.com/in/Giridhar-Nair/'
     },
     {
-        id: 2,
-        name: 'Heroku'
+        'Youtube': "https://www.youtube.com/channel/UC94rbrZdoCYU6uQLiHqQFZg"
     },
     {
-        id: 3,
-        name: 'Vercel'
-    },
-    {
-        id: 4,
-        name: 'IntelliJ'
-    },
-    {
-        id: 5,
-        name: 'VS Code'
-    },
-    {
-        id: 6,
-        name: 'Eclipse'
-    },
-    {
-        id: 7,
-        name: 'PyCharm'
+        'GitHub': "https://github.com/GiridharRNair"
     },
 ]

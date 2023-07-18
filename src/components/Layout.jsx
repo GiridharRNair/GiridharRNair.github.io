@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
     return (
         <>
             <Navbar />
-            <div className={`fade-in ${isActive ? 'active' : ''} w-full md:10/12 mx-auto flex flex-col`}>
+            <div className={`fade-in ${isActive ? 'active' : ''} w-full sm:10/12 md:w-10/12 lg:w-10/12 mx-auto xl:w-10/12 2xl:w-10/12 flex flex-col`}>
                 {children}
                 <Footer />
             </div>
