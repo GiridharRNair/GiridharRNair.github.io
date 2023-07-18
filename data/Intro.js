@@ -1,3 +1,9 @@
+export const name = 'Giridhar Nair'
+
+export const currentUniversity = "The University Of Texas at Dallas '27"
+
+export const description = "Computer science student with a keen interest in artificial intelligence, data science, and full-stack development. I am continuously seeking new challenges and opportunities to enhance my skills, particularly through internships."
+
 export const languages = [
     {
         id: 1,

@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import Contact from './components/Contact';
-import Intro from './components/Intro';
-import Projects from './components/Projects';
-import Timeline from './components/Timeline';
-import ParticlesLight from './components/background/ParticlesComponentLight';
-import ParticlesDark from './components/background/ParticlesComponentDark';
+import Contact from './pages/Contact';
+import Intro from './pages/Intro';
+import Projects from './pages/Projects';
+import Timeline from './pages/Timeline';
 import Navbar from './components/Navbar';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { useSpring, animated } from "react-spring";
@@ -70,7 +68,7 @@ function App() {
   
 
   return (
-	<div className='h-screen overflow-y-scroll no-scrollbar'>
+	<div className='h-screen scrollbar-hide'>
 		<animated.svg
 			xmlns="http://www.w3.org/2000/svg"
 			width="24"
@@ -116,18 +114,15 @@ function App() {
 			</animated.g>
 		</animated.svg>
 		<Router>
-			<Navbar />
-			<div className="text-stone-900 dark:text-white min-h-screen font-inter">
-				<div className="max-w-5xl w-11/12 mx-auto">
+			<div className="dark:bg-stone-900 text-stone-900 dark:text-white min-h-screen font-inter">
+				<div className="w-full mx-auto">
 					<Routes>
 						<Route exact path="/" element={<Intro />} />
 						<Route path="/Projects" element={<Projects />} />
 						<Route path="/Contact" element={<Contact />} />
 						<Route path="/Timeline" element={<Timeline />} />
 					</Routes>
-					{theme === 'light' ? 
-						<ParticlesLight />
-					: <ParticlesDark />}
+
 				</div>
 			</div>
 		</Router>

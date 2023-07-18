@@ -29,6 +29,10 @@ Minimal personal website to display my current developer skills.
 
 Thank you to [Forrest Knight](https://github.com/ForrestKnight/minimal-portfolio) for the inspiration of this portfolio design.
 
+## Content Customization
+
+You can customize the content of the website by modifying the files in the data folder. The data folder contains the necessary data files used to populate the website's content. Feel free to update these files according to your preferences.
+
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)

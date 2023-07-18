@@ -17,6 +17,7 @@
     "react-spring": "^9.7.1",
     "react-switch": "^7.0.0",
     "react-tsparticles": "^2.9.3",
+    "tailwind-scrollbar-hide": "^1.1.7",
     "tsparticles": "^2.9.3",
     "tsparticles-slim": "^2.9.3"
   },

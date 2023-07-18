@@ -1,10 +1,10 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
-import NavbarLinks from '../data/NavbarLinks';
+import NavbarLinks from '../../data/NavbarLinks';
 
 function Navbar() {
   return (
-    <nav className="flex sm:text-left sm:justify-between shadow dark:shadow-stone-700 pt-3 px-6 sm:items-baseline w-full">
+    <nav className="flex sm:text-left sm:justify-between shadow dark:shadow-stone-700 pt-3 px-6 sm:items-baseline w-full ">
         <div className="mb-3 space-x-5 flex flex-row">    
             {NavbarLinks.map(NavbarLink => (
                 <p className='group' key={NavbarLink.id}>
