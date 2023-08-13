@@ -1,5 +1,13 @@
 export default [
    {
+      title: 'YourDailyRundown',
+      imgUrl: './YourDailyRundown.png',
+      stack: ["React.js", "Python Flask", "SQLite", "Chakra UI"],
+      link: 'https://github.com/GiridharRNair/YourDailyRundown',
+      details: "Created a daily newsletter summarizing user-selected interests using Google's PaLM 2 API and NewsAPI.org. Managed email distribution with Twilio's SendGrid. Established Flask backend with 3 API endpoints, SQLite for user data, automated email distribution, and built a React.js frontend with Chakra UI for reliable data transfer."
+
+   },
+   {
       title: 'CodeTogether',
       imgUrl: './CodeTogetherPreview.png',
       stack: ['React.js', 'Node.js', 'Docker'],
@@ -21,13 +29,4 @@ export default [
       details: "Implemented the A* algorithm on a 15 by 11 grid, with an adjustable speed, interactive obstacle integration, start/stop/pause controls, and sound effects."
 
    },
-   {
-      title: 'Sudoku Solver',
-      imgUrl: './SudokuSolverDemo.gif',
-      stack: ['Java'],
-      link: 'https://github.com/GiridharRNair/SudokuSolver',
-      details: "Developed a Sudoku solver utilizing a recursive backtracking algorithm to solve puzzles, with an adjustable speed and dynamic puzzle generation that produces puzzles of varying difficulties."
-
-   },
-
 ]
