@@ -21,3 +21,7 @@ export const socials = [
         'GitHub': "https://github.com/GiridharRNair"
     },
 ]
+
+export const resume = '/GiridharNairResume2023.pdf'
+
+export const getFormURL = 'https://getform.io/f/ebece549-0ac4-4ba2-875f-8173e69d5ea7'

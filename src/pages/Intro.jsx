@@ -1,4 +1,4 @@
-import { name, currentUniversity, description, languages, frameworks_and_libraries, devTools } from '../../data/Intro';
+import { name, currentUniversity, description, languages, frameworks_and_libraries, devTools, resume } from '../../data/Intro';
 import RootLayout from '../components/Layout';
 
 function Intro() {
@@ -30,6 +30,16 @@ function Intro() {
                <h1 className="text-stone-900 text-4xl dark:text-white mb-2 font-bold">{name}</h1>
                <p className="text-base md:text-l mb-2 font-medium">{currentUniversity}</p>
                <p className='lg:text-left text-center'>{description}</p>
+               <a
+                href={resume}
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className='text-center inline-block px-3 py-1 w-max text-base font-medium rounded-md text-white bg-stone-400 hover:bg-stone-600'
+              >
+                <button>
+                  View CV
+                </button>
+              </a>
             </div>
          </div>
          {renderSkills(languages, 'Languages')}
