@@ -28,13 +28,13 @@ export default [
 		host: 'University of Texas at Dallas',
 		details: [
 			{
-				info: 'Leveraged SQL to manipulate and retrieve data from multiple datasets, efficiently extracting valuable insights and identifying significant patterns across 1000+ records'
+				info: 'Utilized SQL Server Integration Services (SSIS) and SQL Server Analysis Services (SSAS) to manage data flow and conduct analyses on substantial datasets, handling over 1,000+ records'
 			}, 
 			{
-				info: 'Created appealing Tableau visualizations that facilitated clear communication of analyzed data and patterns, leading to a 30\% improvement in data analysis efficiency and informed decision-making',
+				info: 'Facilitated clear presentations of queried insights and patterns with Tableau, enabling informed decision making and 30% improvement in data analysis efficiency'
 			},
 			{
-				info: 'Utilized the Matplotlib Python library in Jupyter Notebook to generate visualizations from complex .csv files to effectively communicate data insights'
+				info: 'Applied Data Mining techniques like Decision Trees and Clusters to gain classification-based insights, supplemented by introductory sessions on the Structured Query Language (SQL)'
 			}
 		]
 	},
