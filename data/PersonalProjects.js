@@ -2,24 +2,24 @@ export default [
    {
       title: 'YourDailyRundown',
       imgUrl: './YourDailyRundown.png',
-      stack: ["React.js", "Python Flask", "SQLite", "Chakra UI"],
+      stack: ["React.js", "Python Flask", "MongoDB", "Chakra UI"],
       link: 'https://github.com/GiridharRNair/YourDailyRundown',
-      details: "Created a daily newsletter summarizing user-selected interests using Google's PaLM 2 API and NewsAPI.org. Managed email distribution with Twilio's SendGrid. Established Flask backend with 3 API endpoints, SQLite for user data, automated email distribution, and built a React.js frontend with Chakra UI for reliable data transfer."
+      details: "Daily newsletter service summarizing current events, sourced from The New York Times, across 20 user-selected interests."
 
    },
    {
       title: 'CodeTogether',
       imgUrl: './CodeTogetherPreview.png',
-      stack: ['React.js', 'Node.js', 'Docker'],
+      stack: ['React.js', 'Tailwind CSS', 'Node.js', 'Docker'],
       link: 'https://github.com/GiridharRNair/CodeTogether',
-      details: "Developed a collaborative minimalistic web-based code editor supporting 74 programming languages, featuring code compilation through the JDoodle REST API."
+      details: "Developed a collaborative minimalistic web-based code editor supporting 74 programming languages."
    },
    {
       title: 'Pong Game AI',
       imgUrl: './PongGameAI.gif',
       stack: ['Python'],
       link: 'https://github.com/GiridharRNair/PongGameAI',
-      details: "Trained 3 AI agents with varying difficulty to play Pong using the NEAT algorithm from the neat-python library. The user interface was built with Pygame, and users can choose difficulty levels through command line instructions."
+      details: "Trained 3 AI agents with varying difficulty to play Pong using the NeuroEvolution of Augmenting Topologies (NEAT) algorithm."
  	},
    {
       title: 'A* Algorithm Visualizer',

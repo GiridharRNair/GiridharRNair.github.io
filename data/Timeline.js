@@ -28,13 +28,13 @@ export default [
 		host: 'University of Texas at Dallas',
 		details: [
 			{
-				info: 'Utilized SQL Server Integration Services (SSIS) and SQL Server Analysis Services (SSAS) to manage data flow and conduct analyses on substantial datasets, handling over 1,000+ records'
+				info: 'Leveraged SQL Server Integration Services (SSIS), SQL Server Analysis Services (SSAS), SQL Server Reporting Services (SSRS), and Tableau to develop custom charts, facilitating data-centric business decision-making'
 			}, 
 			{
-				info: 'Facilitated clear presentations of queried insights and patterns with Tableau, enabling informed decision making and 30% improvement in data analysis efficiency'
+				info: 'Introduced methods for Data Storage, Processing, Cleansing, and Warehousing in the development of a comprehensive solution showcasing the data lifecycle using leading BI solutions from Microsoft and Tableau'
 			},
 			{
-				info: 'Applied Data Mining techniques like Decision Trees and Clusters to gain classification-based insights, supplemented by introductory sessions on the Structured Query Language (SQL)'
+				info: 'Delved into Data Mining techniques like Decision Trees and Clusters to gain classification-based insights, supplemented by introductory sessions on the Structured Query Language (SQL)'
 			}
 		]
 	},

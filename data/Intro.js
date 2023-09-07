@@ -8,7 +8,7 @@ export const languages = ['Python', 'Java', 'JavaScript', 'SQL', 'HTML/CSS',]
 
 export const frameworks_and_libraries = ["React.js", "Node.js", "Flask", "TensorFlow", "PyTorch", "NumPy", "Pandas", "Matplotlib", "Java Swing", "Java.awt", "Tailwind CSS", "Chakra UI"]
 
-export const devTools = ["Git", "Github", "Amazon Web Services (AWS)", "Google Cloud Platform (GCP)", "Firebase", "Heroku", "Github Actions", "Vercel", "PythonAnywhere", "Tableau"]
+export const devTools = ["Git", "Github", "MongoDB", "Amazon Web Services (AWS)", "Google Cloud Platform (GCP)", "Firebase", "Heroku", "Github Actions", "Vercel", "PythonAnywhere", "Tableau"]
 
 export const socials = [
     {
