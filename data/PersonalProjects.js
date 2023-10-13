@@ -15,11 +15,11 @@ export default [
       details: "Developed a collaborative minimalistic web-based code editor supporting 74 programming languages."
    },
    {
-      title: 'Pong Game AI',
-      imgUrl: './PongGameAI.gif',
-      stack: ['Python'],
+      title: 'TalkToText',
+      imgUrl: './TalkToText.png',
+      stack: ["React.js", "Python Flask", "MongoDB", "Docker", "Tailwind CSS"],
       link: 'https://github.com/GiridharRNair/PongGameAI',
-      details: "Trained 3 AI agents with varying difficulty to play Pong using the NeuroEvolution of Augmenting Topologies (NEAT) algorithm."
+      details: "Created an audio/video transcription service utilizing OpenAI's Whisper API and Chat-GPT-3.5 to produce insights, summaries, and transcriptions from the media file."
  	},
    {
       title: 'A* Algorithm Visualizer',
