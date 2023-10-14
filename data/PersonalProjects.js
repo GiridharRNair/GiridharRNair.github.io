@@ -18,7 +18,7 @@ export default [
       title: 'TalkToText',
       imgUrl: './TalkToText.png',
       stack: ["React.js", "Python Flask", "MongoDB", "Docker", "Tailwind CSS"],
-      link: 'https://github.com/GiridharRNair/PongGameAI',
+      link: 'https://devpost.com/software/talktotext',
       details: "Created an audio/video transcription service utilizing OpenAI's Whisper API and Chat-GPT-3.5 to produce insights, summaries, and transcriptions from the media file."
  	},
    {
