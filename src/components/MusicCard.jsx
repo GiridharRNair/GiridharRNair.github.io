@@ -12,7 +12,7 @@ export default function MusicPlayerCard() {
         try {
             const song = await getNowPlaying();
             currentSong(song);
-            setTimePlayed(song.timePlayed);
+            setTimePlayed(song?.timePlayed);
         } catch (error) {
             console.error("Error fetching now playing:", error);
         }

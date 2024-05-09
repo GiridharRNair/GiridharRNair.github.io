@@ -30,7 +30,7 @@ export const getNowPlaying = async () => {
             }
         );
     } catch (error) {
-        console.error(error);
+        console.log("Probably not listening to spotify", error);
         return null;
     }
 };
