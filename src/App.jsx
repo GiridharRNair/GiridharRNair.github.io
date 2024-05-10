@@ -1,3 +1,4 @@
+import React from "react";
 import MusicPlayerCard from "./components/MusicCard";
 import PropTypes from "prop-types";
 
@@ -5,18 +6,19 @@ const socialData = [
     { name: "GitHub", link: "https://github.com/GiridharRNair" },
     { name: "LinkedIn", link: "https://www.linkedin.com/in/giridhar-nair/" },
     { name: "Email", link: "mailto:giridhar.r.nair@gmail.com" },
+    { name: "ProfStats", link: "https://chromewebstore.google.com/detail/profstats-ut-dallas/doilmgfedjlpepeaolcfpdmkehecdaff" },
 ];
 
 function Socials({ socials }) {
     return (
         <div className="flex flex-row space-x-3">
-            {socials.map((social, index) => (
-                <>
-                    <a key={social.name} href={social.link} target="_blank" rel="noreferrer" className="text-[#0000EE] underline">
+            {socials.map((social) => (
+                <React.Fragment key={social.name}>
+                    <a href={social.link} target="_blank" rel="noreferrer" className="text-[#0000EE] underline">
                         {social.name}
                     </a>
-                    {index !== socials.length - 1 && <p>|</p>}
-                </>
+                    {social !== socials[socials.length - 1] && <p>|</p>}
+                </React.Fragment>
             ))}
         </div>
     );
@@ -37,6 +39,7 @@ function App() {
             <p>Giridhar Nair&apos;s Personal Website</p>
             <MusicPlayerCard />
             <Socials socials={socialData} />
+            <p className="text-sm">© {new Date().getFullYear()} Giridhar Nair</p>
         </div>
     );
 }

@@ -67,6 +67,7 @@ export default function MusicPlayerCard() {
                         </p>
                     </div>
                 </div>
+                <p className="text-xs italic">*The songs I listen to do not reflect my personal beliefs or opinions</p>
             </>
         );
     }
