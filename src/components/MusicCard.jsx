@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { getNowPlaying } from "../utils/NowPlaying";
+import FakeMusicPlayerCard from "./FakeMusicCard";
 
 const formatWithLeadingZero = (num) => (num < 10 ? `0${num}` : `${num}`);
 
@@ -36,7 +37,7 @@ export default function MusicPlayerCard() {
         return () => clearInterval(interval);
     }, []);
 
-    if (song && song.isPlaying) {
+    if (song && song.isPlaying && song.artists.includes("Drake")) {
         let timePlayedSeconds = Math.floor(timePlayed / 1000);
         let timeTotalSeconds = Math.floor(song.timeTotal / 1000);
 
@@ -71,4 +72,6 @@ export default function MusicPlayerCard() {
             </>
         );
     }
+
+    return <FakeMusicPlayerCard />;
 }
