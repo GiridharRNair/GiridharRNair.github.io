@@ -1,12 +1,13 @@
 import React from "react";
 import MusicPlayerCard from "./components/MusicCard";
+// import resume from ;
 import PropTypes from "prop-types";
 
 const socialData = [
     { name: "GitHub", link: "https://github.com/GiridharRNair" },
     { name: "LinkedIn", link: "https://www.linkedin.com/in/giridhar-nair/" },
     { name: "Email", link: "mailto:giridhar.r.nair@gmail.com" },
-    { name: "ProfStats", link: "https://chromewebstore.google.com/detail/profstats-ut-dallas/doilmgfedjlpepeaolcfpdmkehecdaff" },
+    { name: "Resume", link: "resume.pdf" },
 ];
 
 function Socials({ socials }) {
