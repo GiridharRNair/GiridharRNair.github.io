@@ -21,25 +21,6 @@ concurrency:
     cancel-in-progress: true
 
 jobs:
-    build_latex:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Set up Git repository
-              uses: actions/checkout@v2
-            - name: latex2pdf
-              id: compile-latex-document
-              uses: thomas-chauvet/latex2pdf-action@1.0.4
-              with:
-                output_dir: public
-                main_latex_file: resume.tex
-                ctan_packages: moderncv academicons arydshln luatexbase multirow fontawesome5 xargs bigfoot colortbl pgf
-            - name: Upload CV in PDF to the workflow tab
-              id: upload-workflow-tab
-              uses: actions/upload-artifact@v2
-              with:
-                name: resume
-                path: public/resume.pdf
-
     # Single deploy job since we're just deploying
     deploy:
         environment:
@@ -49,6 +30,13 @@ jobs:
         steps:
             - name: Checkout
               uses: actions/checkout@v3
+            - name: latex2pdf
+              id: compile-latex-document
+              uses: thomas-chauvet/latex2pdf-action@1.0.4
+              with:
+                output_dir: public
+                main_latex_file: resume.tex
+                ctan_packages: moderncv academicons arydshln luatexbase multirow fontawesome5 xargs bigfoot colortbl pgf
             - name: Set up Node
               uses: actions/setup-node@v3
               with:
