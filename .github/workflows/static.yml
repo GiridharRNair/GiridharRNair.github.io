@@ -30,6 +30,10 @@ jobs:
         steps:
             - name: Checkout
               uses: actions/checkout@v3
+            - name: Install TeX Live packages
+              run: |
+                sudo apt-get update
+                sudo apt-get install -y texlive-full
             - name: latex2pdf
               id: compile-latex-document
               uses: thomas-chauvet/latex2pdf-action@1.0.4
