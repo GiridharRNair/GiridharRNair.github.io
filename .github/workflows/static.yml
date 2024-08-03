@@ -36,7 +36,7 @@ jobs:
               with:
                 output_dir: public
                 main_latex_file: resume.tex
-                ctan_packages: moderncv academicons arydshln luatexbase multirow fontawesome5 xargs bigfoot colortbl pgf
+                ctan_packages: moderncv academicons arydshln luatexbase multirow fontawesome5 xargs bigfoot colortbl pgf fullpage
             - name: Set up Node
               uses: actions/setup-node@v3
               with:
