@@ -1,6 +1,5 @@
 import React from "react";
 import MusicPlayerCard from "./components/MusicCard";
-// import resume from ;
 import PropTypes from "prop-types";
 
 const socialData = [
