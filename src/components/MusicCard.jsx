@@ -53,13 +53,13 @@ export default function MusicPlayerCard() {
 
         return (
             <>
-                Currently listening to:
+                Currently listening to Spotify:
                 <div className="flex flex-row space-x-2">
                     <div>
                         <img src={song.albumCover} alt="Album Art" className="flex w-20" />
                     </div>
                     <div className="flex flex-col justify-center">
-                        <a href={song.spotifyLink} target="_blank" rel="noopener noreferrer" className="text-[#0000EE] underline">
+                        <a href={song.spotifyLink} target="_blank" rel="noopener noreferrer" className="text-[#0000EE] hover:text-[#000088] underline">
                             <p>{song.title}</p>
                         </a>
                         <p>{song.artists}</p>

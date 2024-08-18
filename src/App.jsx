@@ -7,7 +7,7 @@ const socialData = [
     { name: "GitHub", link: "https://github.com/GiridharRNair" },
     { name: "LinkedIn", link: "https://www.linkedin.com/in/giridhar-nair/" },
     { name: "Email", link: "mailto:giridhar.r.nair@gmail.com" },
-    { name: "Resume", link: "resume.pdf" },
+    { name: "Resume", link: "GiridharNairResume_2024.pdf" },
 ];
 
 function Socials({ socials }) {
@@ -15,7 +15,7 @@ function Socials({ socials }) {
         <div className="flex flex-row space-x-3">
             {socials.map((social) => (
                 <React.Fragment key={social.name}>
-                    <a href={social.link} target="_blank" rel="noreferrer" className="text-[#0000EE] underline">
+                    <a href={social.link} target="_blank" rel="noreferrer" className="text-[#0000EE] hover:text-[#000088] underline">
                         {social.name}
                     </a>
                     {social !== socials[socials.length - 1] && <p>|</p>}
