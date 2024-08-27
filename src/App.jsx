@@ -6,7 +6,7 @@ const socialData = [
     { name: "GitHub", link: "https://github.com/GiridharRNair" },
     { name: "LinkedIn", link: "https://www.linkedin.com/in/giridhar-nair/" },
     { name: "Email", link: "mailto:giridhar.r.nair@gmail.com" },
-    { name: "Resume", link: "GiridharNairResume_2024.pdf" },
+    { name: "Resume", link: "https://www.overleaf.com/read/sfvscnhhptff#8d9475" },
 ];
 
 function Socials({ socials }) {
